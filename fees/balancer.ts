@@ -126,7 +126,7 @@ const methodology = {
   Fees: "All trading fees collected (doesn't include withdrawal and flash loan fees)",
   Revenue: "Protocol revenue from all fees collected",
   ProtocolRevenue: "Set to 10% of collected fees by a governance vote",
-  SupplySideRevenue: "A small percentage of the trade paid by traders to pool LPs, set by the pool creator or dynamically optimized by Gauntlet",
+  SupplySideRevenue: "A percentage of fees collected goes to pool LPs, set by the pool creator or dynamically optimized by Gauntlet",
 }
 
 const adapter: Adapter = {
